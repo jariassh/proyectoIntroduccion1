@@ -35,7 +35,17 @@ main {
 
 section article#inferior {
     float: left;
-    width: 70%;
+    width: 74%;
+}
+
+.txtpulgarcito {
+    float: left;
+    width: 37%;
+}
+
+.video {
+    margin-bottom: 15px;
+    padding: 27px 85px;
 }
 
 img {
@@ -43,8 +53,10 @@ img {
     margin: auto;
 }
 
-#inferior p {
+#inicio {
     text-align: justify;
+    margin-bottom: 10px;
+    font-size: 1.2em;
 }
 
 h2 {
@@ -54,7 +66,7 @@ h2 {
 aside {
     float: left;
     width: 25%;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 .menu ul {
@@ -97,11 +109,12 @@ footer {
     color: #fff;
     padding: 5px;
     max-width: 1200px;
-    margin: auto;
-    
+    margin: 0px auto 15px auto;
 }
 
-
+footer p {
+    margin: 5px;
+}
 
 
 
